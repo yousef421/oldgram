@@ -1,0 +1,97 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #FFF;
+}
+
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 14px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.user {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+main {
+    background-color: #FFF;
+}
+
+.post:first-child {
+    border-top: 1px solid #DDD;
+}
+
+.post:not(:last-child) {
+    border-bottom: 25px solid #DDD;
+}
+
+.post .post-head {
+    display: flex;
+    align-items: center;
+    padding: 25px 14px;
+
+}
+
+.post .post-head .post-user-img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post .post-head .post-head-titles .post-user-name{
+    margin: 0 0 5px;
+}
+
+.post .post-head .post-head-titles .post-address{
+    margin: 0;
+}
+
+.post .post-img {
+    width: 100%;
+}
+
+.post .icons {
+    padding: 20px 14px;
+    margin-bottom: 0;
+}
+.post .icons .icon{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.likes {
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 0px 14px;
+    margin-top: 0;
+}
+
+.caption {
+    font-size: 1.4rem;
+    padding: 0px 14px;
+    margin-top: 0;
+}
+
+
+
+
